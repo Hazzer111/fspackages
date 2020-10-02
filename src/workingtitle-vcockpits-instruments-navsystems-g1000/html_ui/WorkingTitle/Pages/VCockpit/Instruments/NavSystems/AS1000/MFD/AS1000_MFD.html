@@ -12,7 +12,7 @@
                     </div>
                     <div id="RightInfos" state="Map">
                         <div id="Map">
-                            <map-instrument id="MapInstrument" bing-id="MFD" config-path="/Pages/VCockpit/Instruments/NavSystems/AS1000/MFD/" hide-flightplan-if-bushtrip="true"></map-instrument>
+                            <map-instrument id="MapInstrument" bing-id="MFD" config-path="/WorkingTitle/Pages/VCockpit/Instruments/NavSystems/AS1000/MFD/" hide-flightplan-if-bushtrip="true"></map-instrument>
                             <glasscockpit-wind-data id="WindData"></glasscockpit-wind-data>
                         </div>
 
@@ -925,7 +925,7 @@
     </div>
 </script>
 
-<link rel="stylesheet" href="AS1000_MFD.css" />
+<link rel="stylesheet" href="/Pages/VCockpit/Instruments/NavSystems/AS1000/MFD/AS1000_MFD.css" />
 <link rel="stylesheet" href="AS1000_MFD_WT.css" />
 
 <script type="text/html" import-script="/JS/SimPlane.js"></script>
@@ -952,13 +952,15 @@
 <script type="text/html" import-script="/Pages/VCockpit/Instruments/Shared/Gauges/ElevTrimGauge.js"></script>
 <script type="text/html" import-script="/Pages/VCockpit/Instruments/Shared/Gauges/RudderTrimGauge.js"></script>
 
-<script type="text/html" import-template="/Pages/VCockpit/Instruments/NavSystems/AS1000/WorkingTitle/EngineDisplay.html"></script>
+<script type="text/html" import-template="/WorkingTitle/Pages/VCockpit/Instruments/NavSystems/AS1000/Shared/EngineDisplay.html"></script>
+
 
 <script type="text/html" import-script="/Pages/VCockpit/Instruments/NavSystems/Shared/NavSystem.js"></script>
-<script type="text/html" import-script="/Pages/VCockpit/Instruments/NavSystems/Shared/CommonPFD_MFD.js"></script>
+<script type="text/html" import-script="/WorkingTitle/Pages/VCockpit/Instruments/NavSystems/Shared/CommonPFD_MFD.js"></script>
 <script type="text/html" import-script="/Pages/VCockpit/Instruments/NavSystems/Shared/LogicElements/GaugeElement.js"></script>
 <script type="text/html" import-script="/Pages/VCockpit/Instruments/Shared/WorkingTitle/FileHandler.js"></script>
 
-<script type="text/html" import-script="/Pages/VCockpit/Instruments/NavSystems/AS1000/Shared/BaseAS1000.js"></script>
-<script type="text/html" import-script="/Pages/VCockpit/Instruments/NavSystems/AS1000/WorkingTitle/Engine.js"></script>
-<script type="text/html" import-script="/Pages/VCockpit/Instruments/NavSystems/AS1000/MFD/AS1000_MFD.js"></script>
+
+<script type="text/html" import-script="/WorkingTitle/Pages/VCockpit/Instruments/NavSystems/AS1000/Shared/BaseAS1000.js"></script>
+<script type="text/html" import-script="/WorkingTitle/Pages/VCockpit/Instruments/NavSystems/AS1000/Shared/Engine.js"></script>
+<script type="text/html" import-script="/WorkingTitle/Pages/VCockpit/Instruments/NavSystems/AS1000/MFD/AS1000_MFD.js"></script>
